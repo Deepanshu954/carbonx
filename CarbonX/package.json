@@ -1,0 +1,16 @@
+{
+    "name": "CarbonX",
+    "version": "1.0.0",
+    "description": "Carbon neutrality application",
+    "main": "index.js",
+    "scripts": {
+      "start": "npm run start-backend & npm run start-frontend",
+      "start-backend": "cd backend && nodemon server.js",
+      "start-frontend": "cd frontend && npm start",
+      "install-backend": "cd backend && npm install",
+      "install-frontend": "cd frontend && npm install"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
